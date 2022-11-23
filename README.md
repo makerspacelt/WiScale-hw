@@ -53,7 +53,7 @@ by shorting out R306. Following components can be omitted in assembly:
 
 ### ADC configuration
 
-To reduce noise on measurements capacitors(C401,C402,C403) on ADC input there
+To reduce noise on measurements capacitors(C401,C402,C403) on ADC input are
 placed. As a side effect, they slow down reading settling time after weight
 change. Removing these capacitors will give a fast reading but increase spread
 by about 3 times.
