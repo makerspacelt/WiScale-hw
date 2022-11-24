@@ -12,6 +12,12 @@ preflight:
   run_erc: false
   run_drc: false
 
+filters:
+  - name: lcsc_parts
+    type: generic
+    include_only:
+      - column: 'LCSC Part Number'
+        regex: '^C\d+'
 
 outputs:
   - name: print_sch
@@ -93,6 +99,34 @@ outputs:
       no_compression: true
       highlight_pin1: true
       layer_view: F
+
+  - name: full_bom
+    type: bom
+    options:
+      output: '../gen/bom.csv'
+      ref_separator: ','
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
+
+  - name: lcsl_bom
+    type: bom
+    options:
+      output: '../gen/bom_lcsc.csv'
+      ref_separator: ','
+      exclude_filter: lcsc_parts
+      columns:
+        - field: 'Quantity Per PCB'
+          name: 'Quantity'
+        - 'LCSC Part Number'
+        - 'Value'
+        - 'Footprint'
+      group_fields: ['LCSC Part Number']
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
 
 
   - name: JLCPCB_gerbers

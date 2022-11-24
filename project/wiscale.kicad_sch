@@ -6,7 +6,7 @@
 
   (title_block
     (title "WiScale")
-    (date "2022-11-14")
+    (date "2022-11-24")
     (rev "1.0")
   )
 
@@ -1097,6 +1097,9 @@
     (path "/720c83b5-97cc-48ca-aa34-afbab368755b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/1835afee-9e8f-4666-9a72-1b26ea0ca933"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/86c2d426-191a-42a1-9810-e05da0ebc216/a5d26440-3c46-446f-ad15-b2dc4433fecd"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")
     )
@@ -1229,9 +1232,6 @@
     (path "/7fb50f32-186c-4d57-908e-7d52bfb469db/34fbccf4-1420-49a0-a865-4a6cc76c3f4a"
       (reference "#PWR01005") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/1835afee-9e8f-4666-9a72-1b26ea0ca933"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/bf074cb5-c6c2-438a-b161-3a35cd3ab5c7"
       (reference "BT301") (unit 1) (value "18650") (footprint "-local:BAT_BH-18650-PC")
     )
@@ -1332,10 +1332,10 @@
       (reference "C901") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/86c2d426-191a-42a1-9810-e05da0ebc216/6a36ec68-2766-49cb-8189-805c48f34594"
-      (reference "D201") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D201") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/8a3c1bc6-994b-4f2a-92de-37aa59526128"
-      (reference "F301") (unit 1) (value "1A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "F301") (unit 1) (value "PTC 1A") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
     (path "/b4305003-f65d-4739-bd05-8fe98aea68ec/e8ed0781-e87c-4c57-9702-d0574aafcd33"
       (reference "FB401") (unit 1) (value "bead") (footprint "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

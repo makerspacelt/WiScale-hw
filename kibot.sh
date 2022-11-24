@@ -6,6 +6,12 @@
 uid=$(id -u)
 gid=$(id -g)
 
+# regenerate qr code
+pcb_version="$(grep '\(rev "[^"]*\)"' project/wiscale.kicad_pcb | cut -d'"' -f2)"
+echo "http://wiscale.makerspace.lt/hw/v${pcb_version}" \
+	| qrencode -o - -l H -m1 -d256 -s5 \
+	| convert media/kms-logo.png -threshold 90% -trim -resize 70x70 -gravity center -extent 75x75 - +swap -composite gen/qr_link.png
+
 time docker run --rm -it \
     --volume "$(pwd):/tmp/workdir" \
     --workdir "/tmp/workdir" \
@@ -29,5 +35,4 @@ zip -qjorX9 -n zip gen/gerbers/gerbers.zip ./gen/gerbers
 # remove garbage changes from schematics.pdf
 sed -i '/[/]CreationDate.*$/d' ./gen/schematics.pdf
 sed -i '/[/]CreationDate.*$/d' ./gen/pcb.pdf
-sed -i '/[/]CreationDate.*$/d' ./gen/pcb_bottom.pdf
 
