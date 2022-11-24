@@ -1070,11 +1070,11 @@
   )
 
   (symbol_instances
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/2ac27a37-0ec6-4a7c-9959-3dc8ca16fe0f"
-      (reference "#FLG0301") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/7a0c2b6d-2a0f-4c93-8d53-4dcc5c16c1d7"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/f628b21d-09bc-4705-9abc-07a3957860f6"
-      (reference "#FLG0302") (unit 1) (value "PWR_FLAG") (footprint "")
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/c135f000-b5c6-4768-a598-ba3b2b97bfce"
+      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/b4305003-f65d-4739-bd05-8fe98aea68ec/a9dcfa09-fe28-42c9-85ea-6e5a8a2d25ba"
       (reference "#FLG0401") (unit 1) (value "PWR_FLAG") (footprint "")
@@ -1112,9 +1112,6 @@
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/5b5b71ef-7756-42dd-b029-d7357f4e5eca"
       (reference "#PWR0301") (unit 1) (value "GND") (footprint "")
     )
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/582ac798-157e-4f1e-b9d7-b2eea4fb105a"
-      (reference "#PWR0302") (unit 1) (value "Vusb") (footprint "")
-    )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/8a2ed738-356e-426c-b654-99699ae2c876"
       (reference "#PWR0303") (unit 1) (value "GND") (footprint "")
     )
@@ -1126,9 +1123,6 @@
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/3ca74fa4-10fb-4a5a-921f-9ecdf88af920"
       (reference "#PWR0306") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/2ae60a3d-5489-4fca-a066-3c5607519a62"
-      (reference "#PWR0307") (unit 1) (value "Vusb") (footprint "")
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/ce40d91d-7190-4b8f-8dec-2b02df750e37"
       (reference "#PWR0308") (unit 1) (value "Vbat") (footprint "")
@@ -1234,6 +1228,9 @@
     )
     (path "/7fb50f32-186c-4d57-908e-7d52bfb469db/34fbccf4-1420-49a0-a865-4a6cc76c3f4a"
       (reference "#PWR01005") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/1835afee-9e8f-4666-9a72-1b26ea0ca933"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/bf074cb5-c6c2-438a-b161-3a35cd3ab5c7"
       (reference "BT301") (unit 1) (value "18650") (footprint "-local:BAT_BH-18650-PC")
@@ -1527,7 +1524,7 @@
       (reference "R902") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/af20df54-036f-4b80-a37f-dd6e30ef864c"
-      (reference "SW301") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")
+      (reference "SW301") (unit 1) (value "SW_SPDT") (footprint "-local:SW_SPDT_PCM12")
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/f085dccd-f582-409d-b5c9-b6d23c872043"
       (reference "SW302") (unit 1) (value "btn") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")

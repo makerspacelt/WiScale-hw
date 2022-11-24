@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 1.95
+          "height": 0.8,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -66,10 +66,6 @@
         "clearance|186677500|109900714|953a22ee-1666-44ba-8968-ebc6e0b2eb0c|fc239057-d628-419d-b782-83884089ed4f",
         "clearance|186677500|113300714|884823da-4f51-4ab0-b5fc-4c4908889e17|f84fb5b3-834d-42f7-9f3b-7270424a4c7c",
         "clearance|186925000|110198214|81cb4e69-00d1-41a4-a84c-cef007f48d3d|fc239057-d628-419d-b782-83884089ed4f",
-        "clearance|195505000|66515000|e000f1f3-2e57-412b-b7e1-0e8e2805b970|d9d806e5-9f04-4e9c-82c5-7c6068ee353c",
-        "clearance|195505000|73915000|20f68d10-8173-475f-bead-2c7435d72941|724c54ba-9db0-4efd-9e18-add7dad8445c",
-        "clearance|197715000|66515000|9e0fd52e-9b1c-42a8-95a2-dcb14da2cab1|149ce4b1-9c3c-4aeb-a8bd-7c5f57b420be",
-        "clearance|197715000|73915000|044c83e0-0774-4b72-9564-99737691b9b3|b4a7e049-05b6-43cd-abe4-07e445c8baca",
         "copper_edge_clearance|118462501|115131842|301000cd-8d47-4e9d-b6c5-04ce7cf8341e|5cbe6e3b-3b97-4413-a181-e343b2079520",
         "copper_edge_clearance|132362501|115131842|301000cd-8d47-4e9d-b6c5-04ce7cf8341e|36a6545c-47e7-447d-90f1-b3ac60ecd02d",
         "copper_edge_clearance|135462501|115131842|301000cd-8d47-4e9d-b6c5-04ce7cf8341e|52f905c0-ffd0-4bc3-a6c2-cc460cbc4483",
@@ -80,18 +76,15 @@
         "courtyards_overlap|128985423|64750001|1f0a05f8-0d1f-4885-b124-c75cb591f8a3|2c383841-fb38-4d2d-8741-e5c54e8d4a28",
         "courtyards_overlap|170546613|102490715|991b5aac-146c-4c10-af8c-67086f8e10e1|dbea0e29-4bf7-4f75-847d-8fc898185bc9",
         "courtyards_overlap|173161859|107960715|892a852c-bf52-445f-94ca-366811cd30c9|dbea0e29-4bf7-4f75-847d-8fc898185bc9",
-        "courtyards_overlap|177126613|106410715|d98428f0-79df-4a0c-9250-69cd527af3b5|dbea0e29-4bf7-4f75-847d-8fc898185bc9",
+        "courtyards_overlap|178050001|105650001|d98428f0-79df-4a0c-9250-69cd527af3b5|dbea0e29-4bf7-4f75-847d-8fc898185bc9",
+        "courtyards_overlap|179622501|105650001|2b0f56a3-5ede-4054-98fd-3f0c87810635|d98428f0-79df-4a0c-9250-69cd527af3b5",
         "courtyards_overlap|180892501|102430715|2b0f56a3-5ede-4054-98fd-3f0c87810635|d6ca1949-a375-434e-80c5-a975c3d67d57",
         "courtyards_overlap|183452009|107900715|2b0f56a3-5ede-4054-98fd-3f0c87810635|89d58675-da86-43c4-97cb-985b007eb8d8",
-        "courtyards_overlap|187472501|106350715|0423ffca-831a-49e9-966c-fa00c18b7f0f|2b0f56a3-5ede-4054-98fd-3f0c87810635",
+        "courtyards_overlap|188550001|105650001|0423ffca-831a-49e9-966c-fa00c18b7f0f|2b0f56a3-5ede-4054-98fd-3f0c87810635",
         "hole_clearance|173791612|113310714|b7a96a8f-b754-4458-aabe-32cecb6eb38c|a1854646-c3f2-4093-b01e-a124b17cbb5a",
         "hole_clearance|174761612|113310714|c0265ff2-dfca-4b36-a888-0793e8f6e8bf|a1854646-c3f2-4093-b01e-a124b17cbb5a",
         "hole_clearance|184137500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|15c6b4cd-03fe-4729-a61e-45a315e540f1",
-        "hole_clearance|185107500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|ef9b00d0-bc29-438c-afe0-2239ac3cfa59",
-        "hole_clearance|195885000|66515000|d9d806e5-9f04-4e9c-82c5-7c6068ee353c|e000f1f3-2e57-412b-b7e1-0e8e2805b970",
-        "hole_clearance|195885000|73915000|724c54ba-9db0-4efd-9e18-add7dad8445c|20f68d10-8173-475f-bead-2c7435d72941",
-        "hole_clearance|198085000|66515000|149ce4b1-9c3c-4aeb-a8bd-7c5f57b420be|9e0fd52e-9b1c-42a8-95a2-dcb14da2cab1",
-        "hole_clearance|198085000|73915000|b4a7e049-05b6-43cd-abe4-07e445c8baca|044c83e0-0774-4b72-9564-99737691b9b3"
+        "hole_clearance|185107500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|ef9b00d0-bc29-438c-afe0-2239ac3cfa59"
       ],
       "meta": {
         "version": 2
@@ -99,7 +92,7 @@
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -448,8 +441,7 @@
         "name": "Power",
         "nets": [
           "GND",
-          "Vbat",
-          "Vusb"
+          "Vbat"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
