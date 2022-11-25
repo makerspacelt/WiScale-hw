@@ -84,7 +84,11 @@
         "hole_clearance|173791612|113310714|b7a96a8f-b754-4458-aabe-32cecb6eb38c|a1854646-c3f2-4093-b01e-a124b17cbb5a",
         "hole_clearance|174761612|113310714|c0265ff2-dfca-4b36-a888-0793e8f6e8bf|a1854646-c3f2-4093-b01e-a124b17cbb5a",
         "hole_clearance|184137500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|15c6b4cd-03fe-4729-a61e-45a315e540f1",
-        "hole_clearance|185107500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|ef9b00d0-bc29-438c-afe0-2239ac3cfa59"
+        "hole_clearance|185107500|113250714|ac00d236-f7dc-40b5-95e6-e95f06465e64|ef9b00d0-bc29-438c-afe0-2239ac3cfa59",
+        "hole_clearance|194314693|90750000|3dacda53-454f-4c2c-a762-d713a8d145e2|15f43f93-afbb-44d8-912b-1e565c4cba66",
+        "hole_clearance|194314693|95650000|52a1d179-5971-407e-b8ce-f775058aa613|c4c6b408-ec15-4fda-a869-45583c5360d3",
+        "hole_clearance|194387346|95577347|aeac48e5-41c3-4b14-ab7f-8742083ad38e|c4c6b408-ec15-4fda-a869-45583c5360d3",
+        "hole_clearance|194387347|90822654|1b641d1f-5f77-4ff1-a93d-b6c0a9aa13b0|15f43f93-afbb-44d8-912b-1e565c4cba66"
       ],
       "meta": {
         "version": 2
@@ -133,7 +137,7 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.3,
+        "min_clearance": 0.19,
         "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
@@ -141,7 +145,7 @@
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.3,
+        "min_track_width": 0.25,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.7999999999999999,
         "solder_mask_clearance": 0.0,
@@ -150,6 +154,7 @@
       },
       "track_widths": [
         0.0,
+        0.25,
         0.3,
         0.5,
         0.7,
@@ -179,6 +184,9 @@
   "erc": {
     "erc_exclusions": [
       "multiple_net_names|1066800|1028700|69a9b4ca-2f6e-4040-a55e-99223d3ae70d|2b113f67-66cf-453a-882c-2c9469a435eb",
+      "pin_to_pin|825500|901700|6fbc31bf-7c90-4b12-a2d3-14339602364a|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
+      "pin_to_pin|825500|901700|6fbc31bf-7c90-4b12-a2d3-14339602364a|8e4bd84f-c51c-46e8-8358-91d1e0fe5648",
+      "pin_to_pin|825500|939800|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
       "pin_to_pin|825500|939800|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|6fbc31bf-7c90-4b12-a2d3-14339602364a"
     ],
     "meta": {
@@ -443,12 +451,73 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "GND",
           "Vbat"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.0,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.19,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "unconnected",
+        "nets": [
+          "GND",
+          "unconnected-(J301-PadA6)",
+          "unconnected-(J301-PadA7)",
+          "unconnected-(J301-PadA8)",
+          "unconnected-(J301-PadB6)",
+          "unconnected-(J301-PadB7)",
+          "unconnected-(J301-PadB8)",
+          "unconnected-(U201-Pad16)",
+          "unconnected-(U401-Pad13)",
+          "unconnected-(U501-Pad13)",
+          "unconnected-(U601-Pad13)",
+          "unconnected-(U701-Pad1)",
+          "unconnected-(U701-Pad2)",
+          "unconnected-(U701-Pad6)",
+          "unconnected-(U701-Pad7)",
+          "unconnected-(U701-Pad8)",
+          "unconnected-(U801-Pad1)",
+          "unconnected-(U801-Pad2)",
+          "unconnected-(U801-Pad6)",
+          "unconnected-(U801-Pad7)",
+          "unconnected-(U801-Pad8)"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.19,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "usb-c",
+        "nets": [
+          "/PSU/_cc1",
+          "/PSU/_cc2",
+          "/PSU/_usb_vbus"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
