@@ -11,7 +11,9 @@ T2C0.900
 ; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
 T3C1.500
 ; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
-T4C3.200
+T4C1.600
+; #@! TA.AperFunction,NonPlated,NPTH,ComponentDrill
+T5C3.200
 %
 G90
 G05
@@ -26,8 +28,14 @@ X174.277Y-106.376
 X174.277Y-112.376
 X184.623Y-106.401
 X184.623Y-112.401
-T4
+T5
 X120.0Y-70.0
 X175.61Y-70.0
+T4
+G00X146.62Y-65.75
+M15
+G01X143.72Y-65.75
+M16
+G05
 T0
 M30

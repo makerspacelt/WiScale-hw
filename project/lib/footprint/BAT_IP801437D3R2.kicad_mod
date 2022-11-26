@@ -17,7 +17,7 @@
   (fp_rect (start 4 5) (end 42 -11) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 35c0514b-601b-4be0-b39b-46146ccc4d65))
   (fp_rect (start -4.5 5.5) (end 42.5 -11.5) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp ac9802fb-89dd-4c8f-b4fc-14aac0f1627a))
   (pad "" thru_hole oval (at 21.5 -10.5) (size 5 2) (drill oval 4.5 1.6) (layers *.Cu *.Mask) (tstamp a6641580-858a-4fd6-a6b7-6fd3bcfdaa73))
-  (pad "" thru_hole oval (at 21.5 4.5) (size 5 2) (drill oval 4.5 1.6) (layers *.Mask "F.Cu" "In1.Cu" "B.Cu") (tstamp d00abf01-e944-4a4f-b72d-036c26c6e2db))
+  (pad "" np_thru_hole oval (at 21.5 4.5) (size 4.5 1.6) (drill oval 4.5 1.6) (layers F&B.Cu *.Mask) (tstamp d00abf01-e944-4a4f-b72d-036c26c6e2db))
   (pad "1" smd roundrect (at 0 0) (size 6.5 4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 07eb09e2-43e0-4f39-a9cf-d81c167d4674))
   (pad "2" smd roundrect (at 0 -6) (size 6.5 4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp c6451cbc-1f3c-457f-9133-c2bf86293ebb))
   (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_HC18-U_Horizontal.wrl"
