@@ -1076,9 +1076,6 @@
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/c135f000-b5c6-4768-a598-ba3b2b97bfce"
       (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/90796284-a0f1-4994-b8e4-fe849d19afb4"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
     (path "/b4305003-f65d-4739-bd05-8fe98aea68ec/a9dcfa09-fe28-42c9-85ea-6e5a8a2d25ba"
       (reference "#FLG0401") (unit 1) (value "PWR_FLAG") (footprint "")
     )
@@ -1102,6 +1099,15 @@
     )
     (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/1835afee-9e8f-4666-9a72-1b26ea0ca933"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/5b8f8229-0541-4eba-8172-a84f6fa38f39"
+      (reference "#PWR0103") (unit 1) (value "Vusb") (footprint "")
+    )
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/96b7c44a-df3e-414c-9cff-ee0ec1f1362e"
+      (reference "#PWR0104") (unit 1) (value "Vusb") (footprint "")
+    )
+    (path "/a340c703-ff45-4eeb-b29a-da0a4884b200/3871d42e-a7cc-4bb7-b976-c0740cbbac0b"
+      (reference "#PWR0105") (unit 1) (value "Vusb") (footprint "")
     )
     (path "/86c2d426-191a-42a1-9810-e05da0ebc216/a5d26440-3c46-446f-ad15-b2dc4433fecd"
       (reference "#PWR0201") (unit 1) (value "GND") (footprint "")

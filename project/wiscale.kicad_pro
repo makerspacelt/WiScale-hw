@@ -185,10 +185,10 @@
   "erc": {
     "erc_exclusions": [
       "multiple_net_names|1066800|1028700|69a9b4ca-2f6e-4040-a55e-99223d3ae70d|2b113f67-66cf-453a-882c-2c9469a435eb",
-      "pin_to_pin|825500|901700|6fbc31bf-7c90-4b12-a2d3-14339602364a|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
-      "pin_to_pin|825500|901700|6fbc31bf-7c90-4b12-a2d3-14339602364a|8e4bd84f-c51c-46e8-8358-91d1e0fe5648",
-      "pin_to_pin|825500|939800|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
-      "pin_to_pin|825500|939800|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|6fbc31bf-7c90-4b12-a2d3-14339602364a"
+      "pin_to_pin|838200|558800|6fbc31bf-7c90-4b12-a2d3-14339602364a|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
+      "pin_to_pin|838200|558800|6fbc31bf-7c90-4b12-a2d3-14339602364a|8e4bd84f-c51c-46e8-8358-91d1e0fe5648",
+      "pin_to_pin|838200|596900|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|2be67ed1-1e53-4753-8fdc-56a74bf6b069",
+      "pin_to_pin|838200|596900|8e4bd84f-c51c-46e8-8358-91d1e0fe5648|6fbc31bf-7c90-4b12-a2d3-14339602364a"
     ],
     "meta": {
       "version": 0
@@ -513,8 +513,7 @@
         "name": "usb-c",
         "nets": [
           "/PSU/_cc1",
-          "/PSU/_cc2",
-          "/PSU/_usb_vbus"
+          "/PSU/_cc2"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
