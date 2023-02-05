@@ -513,7 +513,8 @@
         "name": "usb-c",
         "nets": [
           "/PSU/_cc1",
-          "/PSU/_cc2"
+          "/PSU/_cc2",
+          "Vusb"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
